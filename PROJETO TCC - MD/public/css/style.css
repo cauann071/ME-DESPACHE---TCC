@@ -1,0 +1,69 @@
+/* PALETA DE CORES DO SITE
+
+.color1 { #350d3f };
+.color2 { #51275b };
+.color3 { #6d4177 };
+.color4 { #885b92 };
+.color5 { #a475ae }; 
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #350d3f;
+    width: 100%;
+    position: fixed;
+}
+
+.nome{
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-family: "Zalando Sans", sans-serif;
+    font-style: italic;
+}
+
+.caminhos ul{
+    list-style: none;
+    display:flex;
+    gap: 20px; 
+}
+
+.caminhos a{
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Zalando Sans", sans-serif;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.caminhos a:hover{
+    color: #a475ae  ;
+}
+
+body{
+    background-color: #f9f7f0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
